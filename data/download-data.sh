@@ -10,7 +10,7 @@ if [[ "${1:-}" != "--vision" ]]; then
   exit 0
 fi
 
-python - "$SCRIPT_DIR/raw" <<'PY'
+python3 - "$SCRIPT_DIR/raw" <<'PY'
 from pathlib import Path
 import sys
 from torchvision.datasets import CIFAR10, FashionMNIST

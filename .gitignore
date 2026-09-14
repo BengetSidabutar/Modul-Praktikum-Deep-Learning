@@ -9,3 +9,6 @@
 !/notebooks/
 !/data/
 !/templates/
+
+# Dataset hasil unduhan bersifat besar dan dapat dibuat ulang.
+/data/raw/

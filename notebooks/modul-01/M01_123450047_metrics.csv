@@ -1,0 +1,10 @@
+run_id,module,student_id,seed,dataset,split,model,optimizer,learning_rate,batch_size,epochs,train_loss,val_loss,val_metric,test_metric,parameters,trainable_parameters,runtime_seconds,device,notes
+baseline-relu-8,M01,123450047,1047,make_moons,train-val-test,FNN-2-8-1-relu,SGD,0.05,32,200,0.2078,0.25,0.8833,,33,33,1.93,cpu,baseline bagian G
+individu-sigmoid-8,M01,123450047,1047,make_moons,train-val-test,FNN-2-8-1-sigmoid,SGD,0.05,32,200,0.2951,0.341,0.8583,,33,33,2.47,cpu,digit terakhir NIM 7 -> sigmoid
+relu-4,M01,123450047,1047,make_moons,train-val-test,FNN-2-4-1-relu,SGD,0.05,32,200,0.2753,0.3247,0.85,,17,17,2.56,cpu,grid bagian H
+relu-16,M01,123450047,1047,make_moons,train-val-test,FNN-2-16-1-relu,SGD,0.05,32,200,0.2555,0.2915,0.8667,,65,65,2.13,cpu,grid bagian H
+tanh-4,M01,123450047,1047,make_moons,train-val-test,FNN-2-4-1-tanh,SGD,0.05,32,200,0.2925,0.3383,0.8583,,17,17,1.77,cpu,grid bagian H
+tanh-16,M01,123450047,1047,make_moons,train-val-test,FNN-2-16-1-tanh,SGD,0.05,32,200,0.2032,0.2417,0.8917,,65,65,1.71,cpu,grid bagian H
+sigmoid-4,M01,123450047,1047,make_moons,train-val-test,FNN-2-4-1-sigmoid,SGD,0.05,32,200,0.2977,0.343,0.8583,,17,17,1.79,cpu,grid bagian H
+sigmoid-16,M01,123450047,1047,make_moons,train-val-test,FNN-2-16-1-sigmoid,SGD,0.05,32,200,0.2919,0.3383,0.8583,,65,65,3.7,cpu,grid bagian H
+final-tanh-16,M01,123450047,1047,make_moons,train-val-test,FNN-2-16-1-tanh,SGD,0.05,32,200,0.2032,0.2417,0.8917,0.8917,65,65,2.7,cpu,"test_loss=0.2546; retrain konfigurasi terbaik, test dipakai satu kali"

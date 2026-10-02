@@ -1,0 +1,14 @@
+# Dibuat Data Science Workbench (ADR-051). Boleh ditambah; berkas yang
+# cocok di sini tidak ikut commit maupun push.
+data/
+*.pt
+*.pth
+checkpoints/
+.venv*
+__pycache__/
+.ipynb_checkpoints/
+.workbench/
+.env
+.env.*
+.DS_Store
+Thumbs.db
